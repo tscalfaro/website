@@ -367,13 +367,39 @@ form div {
 
 .contact-div {
   display: flex;
+  flex-direction: row;
+
 }
-.contact-container {
+.contact-left-side {
   display: flex;
   position: relative;
-  bottom: 0;
-  right: 0;
-  height: 55vh;
-  width: 50vw;
-  background-color: aliceblue;
+  flex-direction: column;
+
 }
+.contact-left-side:hover {
+  pointer-events: initial;
+  color: powderblue;
+  transform: scale(.5);
+  transition: all 500ms linear ;
+}
+
+.contact-right-side {
+  display: flex;
+}
+
+.contact-right-side:hover {
+  pointer-events: initial;
+  color: powderblue;
+  transform: scale(1.25);
+  transition: all 500ms linear ;
+}
+
+.contact-div:h1 {
+  font-size: var(--fs-h2);
+}
+
+#email-header {
+  color: pink
+}
+
+
