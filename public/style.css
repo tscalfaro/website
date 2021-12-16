@@ -185,7 +185,7 @@ form div {
   top: 0;
   right: 2rem;
   left: 0;
-
+  height: 13vh;
 }
 
 .bardiv {
@@ -194,7 +194,7 @@ form div {
   justify-content: space-evenly;
 }
 
-.bardiv:link:after {
+.bardiv:any-link {
 
     color: #FF013C;
 
@@ -310,7 +310,7 @@ form div {
 .resume-btn {
   align-items: center;
   background-color: var(--clr-dark);
-  border: 2px solid var(--clr-accent);
+  border: 2px solid var(--clr-accent-2);
   border-radius: 8px;
   box-sizing: border-box;
   color: var(--clr-accent);

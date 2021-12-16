@@ -30,7 +30,7 @@ export const Home = () => {
         </div>
 
         <div className="picdiv">
-          <img src={require("../../public/images/sky.jpg")} />
+
           </div>
       </section>
 
