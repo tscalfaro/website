@@ -417,7 +417,7 @@ form div {
 }
 
 #mobile {
-  padding-bottom: 7rem;
+  padding-bottom: 0;
 }
 #mobile-header {
   color: var(--clr-accent-2);
@@ -427,18 +427,103 @@ form div {
 .contact-icons {
   display: flex;
   flex-direction: column;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  padding-left: .5rem;
-  justify-items: flex-end;
-  align-content: center;
+  position: relative;
 
+  align-content: end;
+  height: 5vh;
 }
 
 
 #reach-out {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
+}
+
+#stapler-title {
+  font-size: 3rem;
+  font-weight: var(--fw-bold);
+  color: var(--clr-accent-2)
+}
+#stapler-info {
+  font-size: var(--fs-h3);
+}
+
+#tagd-title {
+  font-size: 3rem;
+  font-weight: var(--fw-bold);
+  color: var(--clr-accent-2);
+}
+
+#tagd-info {
+  font-size: var(--fs-h3);
+}
+.projects-div {
+  align-content: center;
+}
+
+#work-header {
+  margin-bottom: .75rem;
+  padding-bottom: 0;
 }
 
 
 
+/* CSS */
+.button-48 {
+  appearance: none;
+  background-color: transparent;
+  border-width: 0;
+  box-sizing: border-box;
+  color: var(--clr-accent);
+  cursor: pointer;
+  display: inline-block;
+  font-family: Clarkson,Helvetica,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1em;
+  margin: 0;
+  opacity: 1;
+  outline: 0;
+  padding: 0em 2.2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-48:before {
+  animation: opacityFallbackOut .5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: var(--clr-accent-2);
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  width: 100%;
+}
+
+.button-48:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+
+.button-48:after {
+  background-color: var(--clr-accent-2);
+}
+
+.button-48 span {
+  z-index: 1;
+  position: relative;
+}

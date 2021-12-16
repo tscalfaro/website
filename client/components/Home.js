@@ -40,6 +40,10 @@ export const Home = () => {
       </section>
 
       <section className="pages" id="about-me">
+        <Projects />
+      </section>
+
+      <section className="pages" id="contact-me">
         <Contact />
       </section>
     </div>
