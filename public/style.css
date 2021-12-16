@@ -64,6 +64,7 @@ nav {
   font-size: var(--ff-secondary);
   font-weight: var(--fw-bold);
   position: sticky;
+  height: 20vh;
 }
 
 nav a {
@@ -79,14 +80,13 @@ form div {
 
 .container {
   width: 100vw;
-  height: 100vh;
-  background-color: blueviolet;
+  height: 90vh;
   scroll-snap-type: y proximity;
   overflow-y: scroll;
 }
 
 .pages {
-  width: 100vw;
+  width: 98vw;
   height: 100vh;
   display: flex;
   flex-direction: row;
@@ -95,9 +95,9 @@ form div {
   border-bottom: 10px solid palevioletred;
   align-items: center;
   justify-content: space-evenly;
-  scroll-snap-align: start;
+  padding-bottom: 1.25rem;
   padding-top: 0;
-
+  scroll-snap-align: start;
 }
 
 .resume {
@@ -169,13 +169,22 @@ form div {
 
 .nameTag {
   background-color: var(--clr-dark);
-  color: rgb(250, 247, 225)
+  color: rgb(250, 247, 225);
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 2rem;
 }
 
 .navdiv {
   display: flex;
   justify-content: left;
   flex-direction: column;
+
+  position: fixed;
+  top: 0;
+  right: 2rem;
+  left: 0;
+
 }
 
 .bardiv {
@@ -337,9 +346,7 @@ form div {
   z-index: -1;
 }
 
-.resume-btn:hover:after {
-  transform: translate(0, 0);
-}
+
 
 .resume-btn:active {
   background-color: rgb(49, 49, 49);
@@ -356,4 +363,17 @@ form div {
   .resume-btn {
     padding: 0 40px;
   }
+}
+
+.contact-div {
+  display: flex;
+}
+.contact-container {
+  display: flex;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  height: 55vh;
+  width: 50vw;
+  background-color: aliceblue;
 }

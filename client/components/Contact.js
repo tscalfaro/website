@@ -3,8 +3,11 @@ import { connect } from "react-redux";
 
 export const Contact = () => {
   return (
-    <div>
-      <h1>Reach out, get in touch</h1>
+    <div className="contact-div">
+      <div>
+      <h3>Reach out, get in touch</h3>
+      </div>
+
       <div>
 
       </div>

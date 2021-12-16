@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import pic from '../../public/images/profPic.png'
 import Projects from "./Projects";
+import Contact from "./Contact"
 /**
  * COMPONENT
  */
@@ -39,7 +40,7 @@ export const Home = () => {
       </section>
 
       <section className="pages" id="about-me">
-        <h1>Page 3</h1>
+        <Contact />
       </section>
     </div>
   );
