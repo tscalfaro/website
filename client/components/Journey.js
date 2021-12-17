@@ -1,10 +1,13 @@
 import React from "react";
 import { connect } from "react-redux";
 
-export const AboutMe = () => {
+export const Journey = () => {
   return (
     <div className="about-me-div">
-      <h3 className="about-header">How I got here</h3>
+      <div className="about-header-div">
+        <h3 className="about-header">How I got here</h3>
+        <a href="#about-me"><button className="contact-btn"><h2>Get in Touch</h2></button></a>
+        </div>
       <div className="about-odd-years">
         <p id="about-me-info">2021 - Graduated from FullStack Academy</p>
         <p id="about-me-info">2017 - Honorably Discharged from the United States Marine Corps</p>
@@ -19,4 +22,4 @@ export const AboutMe = () => {
   )
 }
 
-export default AboutMe;
+export default Journey;

@@ -532,8 +532,13 @@ form div {
   display: flex;
 
 }
+.about-header-div {
+  display: flex;
+  flex-direction: column;
+}
 .about-header {
   justify-content: left;
+  margin-bottom: 35rem;
 }
 
 .about-even-years {
@@ -554,4 +559,28 @@ form div {
 
 #about-me-info {
   font-size: var(--fs-h3);
+}
+
+.contact-btn {
+  background-color: var(--clr-accent);
+  border-radius: 100px;
+  box-shadow: rgb(10, 140, 149) 0 -25px 18px -14px inset,rgb(0, 238, 255) 0 1px 2px,rgb(0, 238, 255) 0 2px 4px,rgbargb(0, 238, 255) 0 4px 8px,rgb(0, 238, 255) 0 8px 16px,rgb(0, 238, 255) 0 16px 32px;
+  color: var(--clr-accent-2);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.contact-btn:hover {
+  box-shadow: var(--clr-accent-2) 0 -25px 18px -14px inset,var(--clr-accent-2) 0 1px 2px,var(--clr-accent-2) 0 2px 4px,var(--clr-accent-2) 0 4px 8px,var(--clr-accent-2) 0 8px 16px,var(--clr-accent-2) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
 }

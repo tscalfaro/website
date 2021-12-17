@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import pic from '../../public/images/profPic.png'
 import Projects from "./Projects";
 import Contact from "./Contact"
-import AboutMe from "./AboutMe";
+import Journey from "./Journey";
 /**
  * COMPONENT
  */
@@ -20,9 +20,9 @@ export const Home = () => {
         <h1 className="intro-head">Antonio Scalfaro</h1>
         <h2 className="intro-h2">Software Developer. Recent Graduate. Life Long Learner.</h2>
 
-        <button className="project-btn" >
-        <a href="#work" className="proj-link"> <h3>Projects <span role="img" aria-label="arrow">↪</span></h3></a>
-          </button>
+        <a href="#work" className="proj-link"> <button className="project-btn" >
+        <h3>Projects <span role="img" aria-label="arrow">↪</span></h3>
+          </button></a>
         </div>
 
         <div className="picdiv">
@@ -36,7 +36,11 @@ export const Home = () => {
       </section>
 
       <section className="pages" id="about-me">
-        <AboutMe />
+        <Journey />
+      </section>
+
+      <section className="pages" id="journey">
+        <Journey />
       </section>
 
       <section className="pages" id="contact-me">
