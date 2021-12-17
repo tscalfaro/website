@@ -521,9 +521,11 @@ form div {
 .verticle-line {
   border-left: 3px solid white;
   height: 600px;
-
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: 1.5rem;
   left: 50%;
-  margin-left: -3px;
+
   top: 0;
 }
 .about-me-div {
@@ -532,4 +534,24 @@ form div {
 }
 .about-header {
   justify-content: left;
+}
+
+.about-even-years {
+  justify-content: space-evenly;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+
+.about-odd-years {
+  justify-content: space-evenly;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+
+#about-me-info {
+  font-size: var(--fs-h3);
 }
