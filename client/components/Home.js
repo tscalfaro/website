@@ -3,16 +3,12 @@ import { connect } from "react-redux";
 import pic from '../../public/images/profPic.png'
 import Projects from "./Projects";
 import Contact from "./Contact"
+import AboutMe from "./AboutMe";
 /**
  * COMPONENT
  */
 export const Home = () => {
 
-
-  const onPress = () => {
-    var scrollToProjects = document.getElementsByClassName("project-btn");
-
-  }
   return (
     <div className="container">
 
@@ -40,7 +36,7 @@ export const Home = () => {
       </section>
 
       <section className="pages" id="about-me">
-        <Contact />
+        <AboutMe />
       </section>
 
       <section className="pages" id="contact-me">

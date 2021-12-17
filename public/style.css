@@ -200,8 +200,6 @@ form div {
 
 }
 
-
-/* CSS */
 .project-btn,
 .project-btn:after {
   width: 150px;
@@ -305,8 +303,6 @@ form div {
   }
 }
 
-
-/* CSS */
 .resume-btn {
   align-items: center;
   background-color: var(--clr-dark);
@@ -347,8 +343,6 @@ form div {
   z-index: -1;
 }
 
-
-
 .resume-btn:active {
   background-color: rgb(49, 49, 49);
   color: #FF013C;
@@ -387,8 +381,6 @@ form div {
   pointer-events: initial;
   transition: all 500ms linear ;
 }
-
-
 
 .contact-right-side {
   display: flex;
@@ -466,8 +458,6 @@ form div {
 }
 
 
-
-/* CSS */
 .button-48 {
   appearance: none;
   background-color: transparent;
@@ -526,4 +516,20 @@ form div {
 .button-48 span {
   z-index: 1;
   position: relative;
+}
+
+.verticle-line {
+  border-left: 3px solid white;
+  height: 600px;
+
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+.about-me-div {
+  display: flex;
+
+}
+.about-header {
+  justify-content: left;
 }
