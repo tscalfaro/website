@@ -4,6 +4,7 @@ import pic from '../../public/images/profPic.png'
 import Projects from "./Projects";
 import Contact from "./Contact"
 import Journey from "./Journey";
+import About from "./About";
 /**
  * COMPONENT
  */
@@ -26,7 +27,7 @@ export const Home = () => {
         </div>
 
         <div className="picdiv">
-
+          {/* <img src={pic} /> */}
           </div>
       </section>
 
@@ -36,7 +37,7 @@ export const Home = () => {
       </section>
 
       <section className="pages" id="about-me">
-        <Journey />
+        <About />
       </section>
 
       <section className="pages" id="journey">

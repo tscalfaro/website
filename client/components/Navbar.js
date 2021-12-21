@@ -14,7 +14,7 @@ const Navbar = ({ handleClick, isLoggedIn }) => (
         <a href="#intro">01. Home</a>
         <a href="#work">02. Projects</a>
         <a href="#about-me">03. About Me</a>
-        <a href="#about-me">04. Journey</a>
+        <a href="#journey">04. Journey</a>
         <a href="#contact-me">05. Contact Me</a>
         <button className="resume-btn">Resume</button>
       </div>
