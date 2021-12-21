@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import pic from '../../public/images/profPic.png'
+import pic from '../../public/profPic.png'
 import Projects from "./Projects";
 import Contact from "./Contact"
 import Journey from "./Journey";
@@ -27,7 +27,7 @@ export const Home = () => {
         </div>
 
         <div className="picdiv">
-          {/* <img src={pic} /> */}
+          <img src={require("../../public/rand-penquin.png")} />
           </div>
       </section>
 

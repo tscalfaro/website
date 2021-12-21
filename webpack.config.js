@@ -1,10 +1,11 @@
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const { extendDefaultPlugins } = require("svgo");
+const path = require("path")
 
 module.exports = {
   entry: ["./client/index.js"],
   output: {
-    path: __dirname,
+    path: path.resolve(__dirname, "public"),
     filename: "./public/bundle.js",
   },
   devtool: "source-map",
@@ -19,12 +20,12 @@ module.exports = {
         },
       },
       {
-        test: /\.css$/i,
+        test: /\.css$/,
         use: ["style-loader", "css-loader"],
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: "asset/resource",
+        test: /\.(png|svg|jpg|jpeg|gif)$/,
+        use: ["file-loader"],
       },
     ],
   },
