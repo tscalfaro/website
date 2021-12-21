@@ -2337,7 +2337,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var _public_profPic_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../public/profPic.png */ "./public/profPic.png");
+/* harmony import */ var _public_cartoon_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../public/cartoon.jpg */ "./public/cartoon.jpg");
 /* harmony import */ var _Projects__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Projects */ "./client/components/Projects.js");
 /* harmony import */ var _Contact__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Contact */ "./client/components/Contact.js");
 /* harmony import */ var _Journey__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Journey */ "./client/components/Journey.js");
@@ -2378,7 +2378,8 @@ const Home = () => {
   }, "\u21AA"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "picdiv"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: __webpack_require__(/*! ../../public/rand-penquin.png */ "./public/rand-penquin.png")
+    className: "home-img",
+    src: _public_cartoon_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
     className: "pages",
     id: "work"
@@ -2716,9 +2717,9 @@ const store = (0,redux__WEBPACK_IMPORTED_MODULE_3__.createStore)(reducer, middle
 
 /***/ }),
 
-/***/ "./public/profPic.png":
+/***/ "./public/cartoon.jpg":
 /*!****************************!*\
-  !*** ./public/profPic.png ***!
+  !*** ./public/cartoon.jpg ***!
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -2727,22 +2728,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "e021ffb4487b2964e4d8e138ecd6f476.png");
-
-/***/ }),
-
-/***/ "./public/rand-penquin.png":
-/*!*********************************!*\
-  !*** ./public/rand-penquin.png ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "b425cfda49d1600c763d03367c9ffd49.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "6ee59b2d104bfc1183bccbe66e02ba00.jpg");
 
 /***/ }),
 
