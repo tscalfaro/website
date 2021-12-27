@@ -18,7 +18,7 @@ export const Contact = () => {
       </div>
       <div className="contact-icons">
         <div>
-        <a href="https://github.com/tscalfaro/website"><i className="fa fa-github contact-icons fa-2x"></i></a>
+        <a href="https://github.com/tscalfaro"><i className="fa fa-github contact-icons fa-2x"></i></a>
         </div>
         <div>
         <a href="https://www.linkedin.com/in/antonioscalfaro/"><i className="fa fa-linkedin contact-icons fa-2x"></i></a>

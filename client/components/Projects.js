@@ -3,9 +3,7 @@ import { connect } from "react-redux";
 
 export const Projects = () => {
   return (
-    <div>
-
-
+    <div className="my-work-div">
       <div className="projects-div">
       <h1 id="work-header">My Work</h1>
       <div>
@@ -17,7 +15,7 @@ export const Projects = () => {
         <p id="tagd-info">TAGD is an AR mobile application designed with the AB&B host in mind. This application allows a user to see AR "tags" left by a host to help guide guests around their home. </p>
       </div>
     </div>
-    <a href="#journey" ><button className="button-48">About Me ↷ </button></a>
+    <a href="#journey" ><button className="button-27">About Me ↷ </button></a>
     </div>
 
   )
