@@ -15,7 +15,7 @@ export const Projects = () => {
         <p id="tagd-info">TAGD is an AR mobile application designed with the AB&B host in mind. This application allows a user to see AR "tags" left by a host to help guide guests around their home. </p>
       </div>
     </div>
-    <a href="#journey" ><button className="button-27">About Me ↷ </button></a>
+    <a href="#about-me" ><button className="button-27">About Me ↷ </button></a>
     </div>
 
   )
