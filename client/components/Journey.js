@@ -16,8 +16,6 @@ export const Journey = () => {
       <div className="ladder">
       <div className="point"></div>
       <div className="verticle-line"></div>
-      <div className="point-left"></div>
-  
       </div>
       <div className="journey-even-years">
       <p id="journey-info">2018 - Started at Temple University with a major in Computer Science</p>
