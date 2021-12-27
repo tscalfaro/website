@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import { logout } from "../store";
 import { Projects } from "./Projects";
+import resumePdf from "../../public/AntonioScalfaro_Resume.pdf"
 
 const myName = '<devTony>'
 
@@ -16,7 +17,8 @@ const Navbar = ({ handleClick, isLoggedIn }) => (
         <a href="#about-me">03. About Me</a>
         <a href="#journey">04. Journey</a>
         <a href="#contact-me">05. Contact Me</a>
-        <button className="resume-btn">Resume</button>
+        <a href={resumePdf} target='_blank'>06. Resume</a>
+
       </div>
 
     </nav>

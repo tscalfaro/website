@@ -103,7 +103,7 @@ img {
   color: rgb(250, 247, 225);
   border-bottom: 10px solid palevioletred;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding-bottom: 1.25rem;
   padding-top: 0;
   scroll-snap-align: start;
@@ -530,7 +530,6 @@ img {
    border-bottom: 10px solid transparent;
    border-left: 37px solid white;
    float:right;
-   transform: 45deg;
 }
 
 .point-left {
@@ -540,12 +539,11 @@ img {
    border-bottom: 10px solid transparent;
    border-right: 37px solid white;
    float:left;
-   transform:rotateX(45)
 }
 
 .journey-div {
   display: flex;
-
+  height: 68vh;
 }
 .journey-header-div {
   display: flex;
