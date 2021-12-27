@@ -17,8 +17,9 @@ const Navbar = ({ handleClick, isLoggedIn }) => (
         <a href="#about-me">03. About Me</a>
         <a href="#journey">04. Journey</a>
         <a href="#contact-me">05. Contact Me</a>
-        <a href={resumePdf} target='_blank'>06. Resume</a>
-
+        <a href={resumePdf} target='_blank'>
+          Resume
+        </a>
       </div>
 
     </nav>

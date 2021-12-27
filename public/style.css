@@ -202,7 +202,7 @@ img {
   justify-content: space-evenly;
 }
 
-.bardiv:any-link {
+.bardiv a:hover {
 
     color: #FF013C;
 
