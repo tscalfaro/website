@@ -96,7 +96,7 @@ img {
 
 .pages {
   width: 98vw;
-  height: 100vh;
+  height: 98vh;
   display: flex;
   flex-direction: row;
   background-color: var(--clr-dark);
@@ -543,6 +543,7 @@ img {
 
 .journey-div {
   display: flex;
+  justify-content: space-evenly;
   height: 68vh;
 }
 .journey-header-div {
